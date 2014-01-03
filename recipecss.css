@@ -70,6 +70,7 @@ h3 {
 
 }
 
+
 img.pan {
 	display: block;
 	margin: 0 auto;
@@ -127,6 +128,7 @@ img.mix:hover {
       -ms-transform: rotate(360deg);
           transform: rotate(360deg);
 }
+
 
 img.mix:hover
 {
@@ -196,5 +198,14 @@ img.fini:hover
 {
 transition: width 2s;
 -webkit-transition: width 2s; /* Safari */
+}
+
+.selected {
+	background-color: #00FFFF;
+
+}
+
+li {
+	cursor: pointer;
 }
 
